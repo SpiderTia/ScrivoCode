@@ -18,11 +18,15 @@
         @"PAR_GRAFFE" : @[@"{", @"}"],
         @"PAR_QUADRE" : @[@"[", @"]"],
         @"PAR_TONDE" : @[@"(", @")"],
-        @"SINTAX_IF" : @[@"if", @"else if", @"else"],
+        @"ALTRI_SIMB" : @[@"-", @":"],
+        @"FRAMEWORK" : @[@"Cocoa/Cocoa.h", @"objc/runtime.h"],
+        @"IMPORT" : @[@"#import", @"<", @">", @"\"\""],
+        @"PROPERTY" : @[@"@property", @"nonatomic", @"readwrite", @"retain"],
+        @"INTERFACE" : @[@"@interface", @"@end"],
+        @"IMP" : @[@"@implementation", @"@end"],
+        @"SINTAX_IF" : @[@"if", @"else", @"else if"],
         @"SINTAX_WHILE" : @[@"while", @"do"],
         @"SINTAX_FOR" : @[@"for"],
-        @"ALTRI_SIMB" : @[@"-", @":"],
-        @"INTERFACE" : @[@"@interface", @"@end"],
     };
     return _arrSimb;
 }

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		126C4302259CA9D6005770A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 126C4301259CA9D6005770A4 /* main.m */; };
 		126C430B259CA9E9005770A4 /* ScrivoCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 126C430A259CA9E9005770A4 /* ScrivoCode.m */; };
+		12FFD456259CBB3D0080FEC4 /* ControlText.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FFD455259CBB3D0080FEC4 /* ControlText.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,8 @@
 		126C4309259CA9E9005770A4 /* ScrivoCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrivoCode.h; sourceTree = "<group>"; };
 		126C430A259CA9E9005770A4 /* ScrivoCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrivoCode.m; sourceTree = "<group>"; };
 		126C4314259CB5A3005770A4 /* header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = header.h; sourceTree = "<group>"; };
+		12FFD454259CBB3D0080FEC4 /* ControlText.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ControlText.h; sourceTree = "<group>"; };
+		12FFD455259CBB3D0080FEC4 /* ControlText.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ControlText.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +65,11 @@
 			isa = PBXGroup;
 			children = (
 				126C4314259CB5A3005770A4 /* header.h */,
-				126C4301259CA9D6005770A4 /* main.m */,
+				12FFD454259CBB3D0080FEC4 /* ControlText.h */,
+				12FFD455259CBB3D0080FEC4 /* ControlText.m */,
 				126C4309259CA9E9005770A4 /* ScrivoCode.h */,
 				126C430A259CA9E9005770A4 /* ScrivoCode.m */,
+				126C4301259CA9D6005770A4 /* main.m */,
 			);
 			path = ScrivoCode;
 			sourceTree = "<group>";
@@ -127,6 +132,7 @@
 			files = (
 				126C430B259CA9E9005770A4 /* ScrivoCode.m in Sources */,
 				126C4302259CA9D6005770A4 /* main.m in Sources */,
+				12FFD456259CBB3D0080FEC4 /* ControlText.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
